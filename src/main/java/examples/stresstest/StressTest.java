@@ -46,7 +46,7 @@ public class StressTest extends BerylApplication {
 
         Random rand = new Random();
 
-        final int n = 25000;// 50000;
+        final int n = 25000; //50000;
 
         for(int i = 0;i < n;i++) {
             createEntity(scene, rand, cubeMesh, i);
